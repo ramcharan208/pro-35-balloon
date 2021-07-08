@@ -37,7 +37,7 @@ else if(keyDown(RIGHT_ARROW)){
 }
 else if(keyDown(UP_ARROW)){
     balloon.y = balloon.y - 25;
-    balloon.scale = 0.105;
+    balloon.scale = 1;
 }
 else if(keyDown(DOWN_ARROW)){
     balloon.y = balloon.y + 10;
